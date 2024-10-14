@@ -1,0 +1,13 @@
+logging:
+  level:
+    com.digio.challenge: DEBUG
+
+spring:
+  application:
+    name: sboot-autorizador-api
+
+  data:
+    mongodb:
+      uri: mongodb://user:password@localhost:27017/miniautorizador?authSource=admin
+
+
