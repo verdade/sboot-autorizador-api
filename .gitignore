@@ -31,3 +31,19 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignorar pasta .idea (configurações do IntelliJ IDEA)
+.idea/
+
+# Ignorar arquivos de build do Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Ignorar logs de compilação do Maven
+mvnw
+mvnw.cmd
+.mvn/

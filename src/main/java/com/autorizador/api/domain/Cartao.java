@@ -13,5 +13,5 @@ public class Cartao {
     private String id;
     private String numeroCartao;
     private String senha;
-    private Double saldo = 500.00; // Saldo inicial
+    private Double saldo;
 }

@@ -1,4 +1,4 @@
-package com.autorizador.api.interfaceadapters.dto;
+package com.autorizador.api.application.controllers.dto;
 
 import lombok.Data;
 

@@ -1,9 +1,9 @@
-package com.autorizador.api.interfaceadapters.controllers;
+package com.autorizador.api.application.controllers;
 
 import com.autorizador.api.application.services.CartaoService;
 import com.autorizador.api.domain.Cartao;
 import com.autorizador.api.infrastructure.mapper.CartaoMapper;
-import com.autorizador.api.interfaceadapters.dto.CartaoRequestDTO;
+import com.autorizador.api.application.controllers.dto.CartaoRequestDTO;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
