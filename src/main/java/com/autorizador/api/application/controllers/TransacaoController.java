@@ -23,6 +23,5 @@ public class TransacaoController {
         log.info("::.. Iniciando Transação de Cartão ..::");
         cartaoService.realizarTransacao(transacaoDTO.getNumeroCartao(), transacaoDTO.getSenhaCartao(), transacaoDTO.getValor());
         return new ResponseEntity<>("OK", HttpStatus.CREATED);
-
     }
 }
